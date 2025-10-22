@@ -7,6 +7,7 @@ while(n!=0){
 	d=n%10;
 	sum=sum+d;//new comment
 	n=n/10;//new line
+	//in trial
 	
 }
 System.out.println(sum);
