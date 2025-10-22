@@ -10,6 +10,8 @@ while(n!=0){
 	
 }
 System.out.println(sum);
+	SOP;
 }
+
 
 }
