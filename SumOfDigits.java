@@ -38,6 +38,20 @@ public class GeeksforGeeks {
         else
             System.out.println(year + " : Leap-year");
     }
+    public static void isLeapYear2(int year)
+    {
+        // flag to take a non-leap year by default
+        boolean is_leap_year = false;
+
+        is_leap_year = (year % 4 == 0 && year % 100 != 0
+                        || year % 400 == 0)
+                           ? true
+                           : false;
+        if (!is_leap_year)
+            System.out.println(year + " : Non Leap-year");
+        else
+            System.out.println(year + " : Leap-year");
+    }
 
     // Driver Code
     public static void main(String[] args)
@@ -51,3 +65,4 @@ public class GeeksforGeeks {
         isLeapYear(2002);
     }
 }
+
