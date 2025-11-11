@@ -25,13 +25,10 @@ a1 line 22
 	23
 	24
 
-<<<<<<< HEAD
-=======
 28
 27
 31
 web
 new
->>>>>>> 7b1cec1b1d3ff7705f8b8115d7cf2c9d1dd24c39
 
 
